@@ -1,0 +1,13 @@
+<%= turbo_frame_tag "post_comment_form" do %>
+  <%= form_with(model: [post, comment]) do |form| %>
+    <%= render "shared/error_messages", resource: form.object %>
+
+    <div class="form-group">
+      <%= form.label :content, "Reply", class: "form-label" %>
+      <%= form.text_area :content, class: "form-input", placeholder: "Type a response" %>
+    </div>
+
+    <%= form.submit class: "btn btn-primary" %>
+
+  <% end %>
+<% end %>

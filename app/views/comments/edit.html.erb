@@ -1,0 +1,5 @@
+<%= turbo_frame_tag dom_id(@comment) do %>
+  <div class="p-6 bg-slate-50 rounded-xl mb-6">
+    <%= render "comments/form", comment: @comment, post: @post %>
+  </div>
+<% end %>
