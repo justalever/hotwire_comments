@@ -1,24 +1,20 @@
-# README
+![Hotwire Comments with Ruby on Rails](https://f001.backblazeb2.com/file/webcrunch/hotwire-comments/hotwire-comments-ruby-on-rails.jpg)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hotwire Comments with Ruby on Rails 
 
-Things you may want to cover:
+This tutorial will guide you through adding Hotwire-enabled comments to a simple Rails blog application. You'll learn how to:
 
-* Ruby version
+- Create a basic blog with Rails 7.1
+- Create a comment model and controller.
+- Build a comment form with Hotwire.
+- Display and update comments in real time.
 
-* System dependencies
+### Some prerequisites
 
-* Configuration
+- A Rails 7 application (Hotwire is compatible with Rails 7 and later)
+- Basic knowledge of Rails and JavaScript
 
-* Database creation
+### Links
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Read the blog post (full tutorial): https://webcrunch.com/posts/hotwire-comments-rails
+- Watch the video tutorial: https://youtu.be/WSzliaAeRVU
